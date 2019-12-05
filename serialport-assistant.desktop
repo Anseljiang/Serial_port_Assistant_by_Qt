@@ -1,0 +1,38 @@
+[Desktop Entry]
+
+Type = Application
+
+Version = 1.0
+
+Name = serialport-assistant
+
+Name[zh_CN] = 串口助手
+
+GenericName = serialport-assistant
+
+GenericName[zh_CN] = 串口助手
+
+NoDisplay = false
+
+Comment = serial port debug tool
+
+Comment[zh_CN] = 串口调试工具
+
+Icon = /usr/share/pixmaps/appICO.png
+
+Hidden = false
+
+TryExec = serials
+
+Exec = /usr/bin/serials
+
+Path = /usr/bin
+
+Terminal = false
+
+X-MultipleArgs = false
+
+Categories = Graphics;RasterGraphics;Viewer;
+
+StartupNotify = true
+
